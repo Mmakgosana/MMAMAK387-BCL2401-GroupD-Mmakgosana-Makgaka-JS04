@@ -4,9 +4,8 @@
 // Given a variable that holds a user's preferred type of Monster Energy drink, 
 // print whether the user prefers a "Regular" or "Sugar-free" variety. If the preference is not set, default to "Regular".
 
-let userPreference = prompt("Enter your preffered type of Monster Energy drink"); // Possible values: 'Regular', 'Sugar-free', or undefined
-consol
-
+let userPreference = 'Sugar-free';
+console.log(userPreference ? userPreference : 'Regular');
 // #### Challenge 2: Stock Check
 // You have a variable that tracks the number of Monster Energy cans left in the fridge. 
 // Use a ternary operator to print "Time to restock!" if the number is less than 5, or "We're stocked!" if the number is 5 or more.
@@ -40,7 +39,9 @@ console.log(currentTemp <= 5 ? "Chilled to perfection!' : 'Needs a cooler!");
 // otherwise, print "Better stick to water."
 
 // Define the current hour in 24-hour format
-let currentHour = 22; 
+let currentHour = 22;
+//Determine if it's good idea to have a Monster Energy drink based on the current hour
+console.log(currentHour >= 7 && currentHour < 24 ? 'Unleash the beast!':'Better stick to water.'); 
 
 // Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
 // If it's between 7am and midnight (24-hour format), print "Unleash the beast!"
