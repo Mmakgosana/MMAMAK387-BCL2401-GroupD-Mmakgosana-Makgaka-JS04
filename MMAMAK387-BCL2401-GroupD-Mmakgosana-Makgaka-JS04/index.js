@@ -16,7 +16,7 @@ console.log(userPreference ? userPreference : 'Regular');
 ////Assume cansLeft variable holds the number of Monster Energy drink cans left in the fridge
 let cansLeft = 3; // Let us assume there are 25 cans left
 //Use the ternary operator to determine the message based on the number of the cans left
-let message = (cansLeft < 5 ? 'Time to restock!': 'We are stocked!') ? "Time to restock!" : "We're stocked!";
+let message = (cansLeft < 5 ? 'Time to restock!': "We're stocked!)" ? "Time to restock!" : "We're stocked!");
 
 
 
